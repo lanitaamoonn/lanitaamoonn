@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: arabtype;
+  src: url(fonts/arabtype.ttf);
+}
+body {
+  background-color: rgba(255, 132, 189, 0.521);
+
+  background-image: url(images/Hello\ kitty\ wallpaper.jfif);
+}
+header {
+  background-color: rgba(255, 152, 209, 0.199);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 100px;
+}
+.logo {
+  text-decoration: none;
+  color: rgb(255, 58, 150);
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.navigation a {
+  color: rgb(255, 58, 150);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  transition: 0.5s;
+  color: rgb(255, 121, 184);
+}
+section {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+.topic {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background-attachment: fixed;
+
+  letter-spacing: 0.6px;
+}
+.topic h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.topic h3 span {
+  font-size: 26px;
+
+  border-radius: 30%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+.topic h3 {
+  display: inline-block;
+  line-height: 40px;
+}
+.social-icons {
+  font-size: 50px;
+
+  text-align: center;
+  margin-top: 20px;
+}
+.safe {
+  text-shadow: 2px 2px 5px rgb(255, 132, 189);
+  color: rgb(255, 58, 150);
+  background-color: rgba(255, 152, 209, 0.199);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 30px;
+  transition: 1s ease;
+}
+.safe:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 58, 150);
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  background-color: rgba(255, 152, 209, 0.199);
+  backdrop-filter: blur(4px);
+  text-shadow: 2px 2px 5px rgb(255, 132, 189);
+
+  padding: 40px;
+  border-radius: 30px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  width: 21.25em;
+  background-color: rgba(255, 152, 209, 0.199);
+  backdrop-filter: blur(4px);
+  text-shadow: 2px 2px 5px rgb(255, 132, 189);
+  color: rgb(255, 58, 150);
+  margin: 10px;
+  padding: 13px;
+  border-radius: 13px;
+  transition: 1s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.info {
+  text-align: center;
+  margin-top: 7px;
+  line-height: 30px;
+}
+.gif {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+.projects .content {
+  background-color: rgba(255, 152, 209, 0.199);
+  backdrop-filter: blur(4px);
+  padding: 20px;
+  border-radius: 13px;
+}
+.projects h5 {
+  text-shadow: 2px 2px 5px rgb(255, 132, 189);
+  color: rgb(255, 58, 150);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.project-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.project-image img {
+  width: 250px;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  flex-grow: auto;
+  order: 5;
+  transition: 1s ease;
+  justify-content: space-around;
+}
+.project-card :hover {
+  transform: scale(1.1);
+}
+.sign {
+  text-align: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.sign button {
+  text-shadow: 2px 2px 5px rgb(163, 163, 163);
+  background-color: rgb(250, 123, 182);
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  font-family: arabtype;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 14px;
+  vertical-align: bottom;
+}
+.sign button:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
+
+.sign button:active {
+  opacity: 0.7;
+  transition: 0.2s;
+}
